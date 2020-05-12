@@ -1,0 +1,399 @@
+ /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover, a:link, a:visited {
+    text-decoration: none;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Página principal
+   ========================================================================== */
+
+#cabecalho {
+  padding-top: 30px;
+}
+
+.title {
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.info {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+#barra_t {
+  width: auto;
+  height: 2px; 
+  background-color: #a6a6a6;
+}
+
+#barra_b {
+  width: auto;
+  height: 4px; 
+  background-color: #a6a6a6;
+}
+
+#miolo {
+  width: 70px;
+}
+
+ul li{
+  display: inline-block;
+  float: center;
+  vertical-align: top;
+  list-style:none;
+}
+
+#barra {
+    background-color: #0C6342;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.navbar-nav > li > a {
+  padding-top:1px !important; padding-bottom:1px !important;
+  margin: 0;
+}
+
+.nav-link:hover {
+    text-decoration-color: #f1f1f1;
+    font-weight: 500;
+
+}
+
+
+
+
+/* ==========================================================================
+   Formulários
+   ========================================================================== */
+
+
+
+#barra {
+  background-color: #0C6342;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#public button{
+  margin-bottom: 50px;
+}
+
+#public {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.form-group{
+  margin-bottom: 3px;
+  padding: 0;
+}
+
+.control-label{
+  margin: 0;
+  padding: 0;
+}
+
+#enviar {
+  margin-top: 10px;
+  background-color: #0C6342;
+  color: white;
+  margin: 8px;
+
+}
+
+
+#enviar_cancel {
+  margin-top: 10px;
+  background-color: #CD0000;
+  color: white;
+  margin: 8px;
+
+}
+
+#n_user button{
+  margin-bottom: 50px;
+}
+
+#n_user {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#n_secretaria button{
+  margin-bottom: 50px;
+}
+
+#n_secretaria {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#divis {
+  width: 300px;
+  margin-left: 5px;
+}
+
+#datapublic {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.note-popover .popover-content, .note-toolbar {
+  height: 50px;
+}
+
+/* ==========================================================================
+   Configurações gerais
+   ========================================================================== */
+
+#d_fixos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#usuarios {
+  text-align: center;
+}
+
+#secretarias {
+  text-align: center;
+}
+
+#enviar {
+  margin-top: 10px;
+  background-color: #0C6342;
+  color: white;
+}
+
+
+
+
+/* ==========================================================================
+   Barra de busca do index
+   ========================================================================== */
+
+#fundo_s{
+  width: auto;
+  height: 37px; 
+  background-color: #D2D3D5;
+}
+
+
+#pesquisa_t {
+  margin-left: 5px;
+  padding-left: 10px;
+
+}
+
+
+#pesquisa {
+  margin: 3px;
+ padding-left: 10px;
+
+}
+
+
+#enviar_sc {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+
+  background-color: #CD0000;
+  color: white;
+}
+
+
+#search_a {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 20px;
+  background-color: #CD0000;
+  color: white;
+}
+
+
+
+/* ==========================================================================
+   Diagramação do Index
+   ========================================================================== */
+
+#secret_dg {
+background-color: #0C6342;
+color: white;
+padding: 5px;
+margin-top: 15px;
+}
+
+
+.titulo_dg {
+text-align: center;
+
+}
+
+.conteudo_dg {
+text-align: justify;
+  line-height: 1.2!important;
+
+
+}
+
+.datapublic_dg {
+
+
+}
+
+.assinatura_dg {
+text-align: center;
+font-weight: 400!important;
+margin-top: 0;
+padding: 0;
+line-height: 0.6;
+}
+
+.separacao_dg {
+width: 200px;
+text-align: center;
+display: block;
+float: center;
+color: red;
+border-color: #7bac3b;
+}
+
+.TableGrid {
+  width: 100% !important;
+}
+
+
+/* ==========================================================================
+   Página de busca
+   ========================================================================== */
+
+#fundo_tema{
+  width: auto;
+  height: 45px; 
+  background-color: #D2D3D5;
+}
+
+
+#grupo1 {
+  margin-top: 20px;
+
+}
+
+#botoes {
+  margin-top: 25px;
+  margin-bottom: 3px;
+
+ 
+}
+
+#datas{
+  padding: 10px;
+}
+
+#secret_searc {
+  width: 100%;
+  padding: 0;
+}
+
+#data_f{
+ 
+}
+
+#data_i {
+
+}
+
+
+
+
+/* ==========================================================================
+   Extras
+   ========================================================================== */
+
+
+.alerta {
+  text-align: center;
+}
+
+
+
+/* ==========================================================================
+   Usando o Responsivo
+   ========================================================================== */
+
+
+
+@media (min-width: 768px) {
+ 
+#cabecalho {
+  text-align: center;
+}
+
+}  
+
+@media screen and (max-width: 480px) {
+
+#cabecalho {
+  text-align: center;
+}
+
+} 
